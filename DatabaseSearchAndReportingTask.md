@@ -34,3 +34,51 @@
 
 
 ----------------------------------------------------------------
+
+### *3. Roles in a Database System*
+
+#### - System Analyst :
+A person who analyzes and designs information systems to meet business needs.
+#### Role:
+- Gathers requirements from stakeholders.
+- Analyzes system requirements and designs the database structure.
+- Works with developers to ensure the system meets user needs.
+
+
+
+#### - Database Designer :
+A person who designs the database schema and structure.
+#### Role:
+- Creates the database schema, including tables, relationships, and constraints.
+- Ensures data integrity and normalization.
+- Works with developers to implement the database design.
+	
+
+
+#### - Database Developer :
+A person who develops and maintains the database.
+#### Role:
+- Writes SQL queries and scripts to create and modify database objects.
+- Optimizes database performance and security.
+- Works with application developers to integrate the database with applications.
+
+#### - Database Administrator (DBA) :
+A person responsible for managing and maintaining the database.
+#### Role:
+- Monitors database performance and security.
+- Performs backups and recovery operations.
+- Manages user access and permissions.
+	
+#### - Application Developer :
+A person who develops applications that interact with the database.
+#### Role:
+- Writes code to interact with the database using SQL.
+- Designs user interfaces and application logic.
+- Works with the DBA to ensure the application meets performance and security requirements.
+	
+#### - BI Developer :
+A person who develops business intelligence solutions using the database.
+#### Role:
+- Designs and develops reports, dashboards, and data visualizations.
+- Analyzes data to provide insights and support decision-making.
+- Works with the DBA to ensure data is accurate and accessible for reporting.
