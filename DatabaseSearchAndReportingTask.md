@@ -29,7 +29,7 @@
 
 
 
-[Advantages of using a DBMS](./images/Advantages_of_using_a_DBMS.png)
+[Advantages of using a DBMS](./images/Advantages_of_using_a_DBMS.png.PNG)
 
 
 
