@@ -27,3 +27,21 @@ else?
 	- Instagram uses a combination of PostgreSQL for relational data and Cassandra for large-scale data storage.
 
 -------
+
+## Task 2: "Do Video Games Use Databases?"
+
+Yes, video games use databases to store player data, game state, and other information. They often use NoSQL databases like MongoDB or Redis for real-time data storage and retrieval.
+
+- How do online games (like PUBG, Fortnite, etc.) store player progress, points, and
+profiles?
+
+	- Online games like PUBG and Fortnite use databases to store player progress, points, and profiles. They often use a combination of SQL and NoSQL databases for this purpose. For example, they might use MySQL for structured data like player profiles and MongoDB for unstructured data like game logs and events.
+
+- Do Video Games use SQL databases or something else?
+	- Yes, video games use SQL databases for structured data storage, but they also use NoSQL databases for unstructured data and real-time data processing. For example, many games use Redis for caching and real-time data storage, while using SQL databases like MySQL or PostgreSQL for player profiles and game state.
+	
+- Example of a game that uses a relational database.
+	- Call of Duty Warzone uses a relational database to store player data, game state, and other structured information. It uses MySQL for this purpose.
+	- Minecraft uses a relational database to store player data, game state, and other structured information. It uses MySQL for this purpose.
+
+------------
