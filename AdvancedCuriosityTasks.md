@@ -62,4 +62,18 @@ These databases are designed to work without an internet connection and can sync
 - Can SQL Server be used offline?
 	- Yes, SQL Server can be used offline. SQL Server Express is a lightweight version of SQL Server that can be installed on a local machine and used without an internet connection. It allows for local data storage and processing.
 
-	-------------------
+-------------------
+## Task 4: "What Makes Online Stores So Fast?"
+Online stores like Amazon and eBay use a combination of caching, load balancing, and distributed databases to handle millions of transactions per second. They use caching to store frequently accessed data in memory, reducing the need for database queries. Load balancing distributes incoming requests across multiple servers to ensure that no single server is overwhelmed. Distributed databases allow for horizontal scaling, enabling the system to handle large amounts of data and traffic.
+
+- How do e-commerce platforms (like Amazon or Noon) organize their product and
+order data for fast searching?
+	- E-commerce platforms like Amazon and Noon use a combination of indexing, caching, and distributed databases to organize their product and order data for fast searching. They create indexes on frequently searched fields, cache popular products in memory, and use distributed databases to handle large amounts of data efficiently.
+
+- Do they use relational databases, cloud, or both?
+	- E-commerce platforms typically use a combination of both relational databases and cloud services. They may use relational databases like MySQL or PostgreSQL for structured data and cloud services like Amazon DynamoDB or Google Cloud Firestore for scalability and flexibility.
+
+- What challenges do they face in storing millions of products?
+	- Challenges include data consistency, scalability, and performance. They need to ensure that data is consistent across multiple servers, can scale to handle millions of products, and can perform efficiently under heavy load. Additionally, they need to manage complex queries and transactions while maintaining fast response times.
+
+----------------------------------
