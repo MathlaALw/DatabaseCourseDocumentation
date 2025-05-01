@@ -99,4 +99,4 @@ Banks use a combination of encryption, access controls, and auditing to protect 
 
 --------------------------------------------------------------
 ## Task 6: "Draw Me the System!"
-![Three-tier architecture database diagram](./images/Client.png))
+![Three-tier architecture database diagram](./images/Client.png)
