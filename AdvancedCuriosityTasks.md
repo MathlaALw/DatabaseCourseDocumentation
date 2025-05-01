@@ -45,3 +45,21 @@ profiles?
 	- Minecraft uses a relational database to store player data, game state, and other structured information. It uses MySQL for this purpose.
 
 ------------
+## Task 3: "Can a Database Work Without the Internet?"
+Yes, a database can work without the internet. Local databases like SQLite or Microsoft Access can be used to store data on a local machine without requiring an internet connection.
+
+- How databases are used in offline systems, like in military bases or
+airplanes.
+
+	- Military bases use databases to store personnel records, equipment inventories, and mission data. 
+	- Airplanes use databases to store flight data, maintenance records, and passenger information. 
+
+These databases are designed to work without an internet connection and can sync with central databases when a connection is available.
+
+- kind of database do they use when no internet is available?
+	-  SQLite -> a lightweight, serverless database that can be used for local storage.
+	
+- Can SQL Server be used offline?
+	- Yes, SQL Server can be used offline. SQL Server Express is a lightweight version of SQL Server that can be installed on a local machine and used without an internet connection. It allows for local data storage and processing.
+
+	-------------------
