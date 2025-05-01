@@ -77,3 +77,24 @@ order data for fast searching?
 	- Challenges include data consistency, scalability, and performance. They need to ensure that data is consistent across multiple servers, can scale to handle millions of products, and can perform efficiently under heavy load. Additionally, they need to manage complex queries and transactions while maintaining fast response times.
 
 ----------------------------------
+## Task 5: "How Do Banks Protect Their Data?"
+Banks use a combination of encryption, access controls, and auditing to protect their data. They encrypt sensitive data both at rest and in transit to prevent unauthorized access. Access controls ensure that only authorized personnel can access sensitive data. Auditing tracks changes to data and user access, allowing banks to monitor for suspicious activity.
+
+- How banking systems use databases to protect sensitive customer data.
+	- Banking systems use databases to store sensitive customer data, such as account information and transaction history. They implement encryption, access controls, and auditing to protect this data. For example, they may use AES encryption to encrypt data at rest and TLS to encrypt data in transit. Access controls ensure that only authorized personnel can access sensitive data, while auditing tracks changes to data and user access.
+
+- What database features help with security and integrity?
+
+	- Encryption: Encrypts data at rest and in transit to protect it from unauthorized access.
+	- Access controls: Restricts access to sensitive data based on user roles and permissions.
+	- Auditing: Tracks changes to data and user access, allowing for monitoring and compliance.
+	- Backup and recovery: Ensures that data can be restored in case of loss or corruption.
+	- Data masking: Hides sensitive data in non-production environments to protect it from unauthorized access.
+
+- Find one bank or financial system that uses Oracle or SQL Server.
+	- Bank of America uses Oracle .
+	- Wells Fargo uses SQL Server .
+	- JPMorgan Chase uses Oracle .
+	- Citibank uses SQL Server .
+
+--------------------------------------------------------------
