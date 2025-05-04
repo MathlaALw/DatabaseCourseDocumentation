@@ -215,3 +215,7 @@ How dose it relate to databases: -> Cloud storage is often used to store databas
 	- Index on Email for faster search
   - Storage: 
 	- Stored in a specific file format on disk with defined block size and allocation.
+
+
+	------------------------------------------------
+- 
