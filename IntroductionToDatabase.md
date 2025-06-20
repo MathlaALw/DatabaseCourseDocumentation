@@ -11,6 +11,22 @@ A DBMS is software that interacts with the database, allowing users to create, r
 
 it allow user to create, read, update, and delete data in the database.
 
+![DBMS](./images/DBMS.png)
+
+~~Explination of DBMS:~~
+
+This image represents the architecture of **a Database Management System (DBMS)** and how different components interact within a typical application.
+At the start of the process, **the client (the user)** sends a request, typically by interacting with a user interface, such as clicking a button or submitting a form.
+This request is sent through a **URL** to **the App Server**, which the **App Developer** handles. 
+The **App Server** processes this request using backend logic written in **C#**, and then translates it into a **SQL query** directed to the **Database Server (DB Server)**.
+
+The **DB Server**, managed by a **DB Developer**, receives this **query**, executes it, and returns the appropriate **results**, such as data retrieved from or updated in the database.
+The **App Server** then takes this data,processes it if needed, and sends a response back to **the client**. 
+
+In this way, the image illustrates a *three-layered structure*: the **Client (presentation layer)**, the **App Server (application layer)**, and the **DB Server (data layer)**.
+Each role and technology has a specific function, working together to deliver efficient and secure data processing within the application.
+
+
 **Difference between Data and metadata:**
 - **Data:** The actual information stored in the database, such as customer names, addresses, and transaction records.
 	- Examples include:
