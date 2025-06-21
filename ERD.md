@@ -45,6 +45,7 @@ An Entity Relationship Diagram (ERD) is a visual representation of the entities 
 
 ![Complex Attribute](./images/ComplexAttribute.png)
 
+
 ## Type of Relationships:
 
 1. **Degree of Relationship:**
@@ -57,15 +58,15 @@ An Entity Relationship Diagram (ERD) is a visual representation of the entities 
 2. **Cardinality of Relationship:**
 	- **One-to-One (1:1):** Each instance of one entity is related to exactly one instance of another entity. For example, a person has one passport.
 	
-	![One-to-One Relationship](./images/OneToOne.png)
+	![One-to-One Relationship](./images/OneToOne.png) 
 	 
 	- **One-to-Many (1:N):** Each instance of one entity can be related to multiple instances of another entity. For example, a customer can place multiple orders.
 	
-	![One-to-Many Relationship](./images/OneToMany.png)
+	![One-to-Many Relationship](./images/OneToMany.png) 
 	
 	- **Many-to_Many (M:N):** Each instance of one entity can be related to multiple instances of another entity, and vice versa. For example, students can enroll in multiple courses, and each course can have multiple students.
 	
-	![Many-to-Many Relationship](./images/ManyToMany.png)
+	![Many-to-Many Relationship](./images/ManyToMany.png) 
 
 
 ~~Note:~~
@@ -78,31 +79,31 @@ An Entity Relationship Diagram (ERD) is a visual representation of the entities 
 
 - **Partial Participation:** Some instances of an entity may not participate in the relationship. It is represented by a single line connecting the entity to the relationship.
 
-![Participation of Relationship](./images/Participation.png)
+![Participation of Relationship](./images/Participation.png) 
 
 
 ## Key Attributes:
-![Database Key Attributes](./images/DatabaseKeys.png)
+![Database Key Attributes](./images/DatabaseKeys.png) 
 
 - **Primary Key:** An attribute or a combination of attributes that uniquely identifies each instance of an entity. It is represented by underlining the attribute name.
 
-![Primary Key](./images/PrimaryKey.png)
+![Primary Key](./images/PrimaryKey.png) 
 
 - **Foreign Key:** An attribute in one entity that refers to the primary key of another entity, establishing a relationship between the two entities. It is represented by a dashed line connecting the foreign key attribute to the primary key of the related entity.
 
-![Foreign Key](./images/ForeignKey.png)
+![Foreign Key](./images/ForeignKey.png) 
 
 - **Composite Key:** A primary key that consists of multiple attributes. It is represented by underlining all the attributes that make up the composite key.
 
-![Composite Key](./images/CompositeKey.png)
+![Composite Key](./images/CompositeKey.png) 
 
 - **Candidate Key:** An attribute or a combination of attributes that can uniquely identify an instance of an entity, but is not chosen as the primary key. It is represented by a dashed underline.
 
-![Candidate Key](./images/CandidateKey.png)
+![Candidate Key](./images/CandidateKey.png) 
 
 - **Partial Key:** An attribute that can uniquely identify an instance of a weak entity, but not a strong entity. It is represented by a dashed underline with a double line.
 
-![Partial Key](./images/PartialKey.jpeg)
+![Partial Key](./images/PartialKey.jpeg) 
 
 **Additional Key Types:**
 
