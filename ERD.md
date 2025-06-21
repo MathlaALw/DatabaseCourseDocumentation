@@ -53,7 +53,7 @@ An Entity Relationship Diagram (ERD) is a visual representation of the entities 
    - **Binary Relationship:** A relationship between two different entity types, such as a customer placing an order.
    - **Ternary Relationship:** A relationship involving three different entity types, such as a student enrolling in a course with a specific instructor.
 
-	![Degree of Relationship](./images/DegreeOfRelationship.png)
+	![Degree of Relationship](./images/DegreeOfRelationship.PNG)
 
 2. **Cardinality of Relationship:**
 	- **One-to-One (1:1):** Each instance of one entity is related to exactly one instance of another entity. For example, a person has one passport.
